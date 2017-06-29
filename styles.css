@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+#houses{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.banner{
+    width: 20%
+}
+
+img{
+    width: 100%
+}
+
+#house_details{
+    margin: 20px auto;
+    width: 50%;
+    min-height: 150px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#detail_title{
+    background-color: white;
+    margin-top: -15px;
+    width: 20%;
+    text-align: center;
+}
+
+#detail_content{
+    padding: 10px;
+}
+
+#detail_content h3{
+    margin: 10px auto
+}
